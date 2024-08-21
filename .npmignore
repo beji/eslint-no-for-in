@@ -1,0 +1,10 @@
+*.ts
+*.test.ts
+!*.d.ts
+*.js
+!no-for-in.js
+
+tsconfig.json
+shell.nix
+.envrc
+.direnv
