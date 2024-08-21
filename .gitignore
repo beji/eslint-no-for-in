@@ -5,3 +5,4 @@
 /.envrc.secure
 *.tgz
 .npmrc
+!eslint.config.js
