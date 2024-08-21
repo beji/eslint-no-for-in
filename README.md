@@ -4,16 +4,16 @@ In my experience they seem to be mostly used by accident when for..of is actuall
 Usage in **eslint.config.js**
 
 ```javascript
-const noForIn = require("@berlwein/eslint-no-for-in");
+const noForIn = require("@starkertyp/eslint-no-for-in");
 
 module.exports = [
     {
         files: ["examples/*.js"],
         plugins: {
-            "berlwein": noForIn
+            "starkertyp": noForIn
         },
         rules: {
-            "berlwein/no-for-in": "error"
+            "starkertyp/no-for-in": "error"
         }
     }
 ]

@@ -1,5 +1,5 @@
 {
-  "name": "@berlwein/eslint-no-for-in",
+  "name": "@starkertyp/eslint-no-for-in",
   "version": "1.0.0",
   "description": "Custom eslint rule that blocks for in loops",
   "main": "index.js",
