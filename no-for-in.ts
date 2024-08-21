@@ -1,7 +1,7 @@
 import {ESLintUtils} from "@typescript-eslint/utils";
 
 const createRule = ESLintUtils.RuleCreator(
-  name => `berlwein/${name}`
+  () => 'https://github.com/beji/eslint-no-for-in'
 );
 
 const rule = createRule({
