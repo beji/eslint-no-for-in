@@ -4,3 +4,4 @@
 *.tar.gz
 /.envrc.secure
 *.tgz
+.npmrc
