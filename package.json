@@ -2,7 +2,7 @@
   "name": "@berlwein/eslint-no-for-in",
   "version": "1.0.0",
   "description": "Custom eslint rule that blocks for in loops",
-  "main": "no-for-in.js",
+  "main": "index.js",
   "scripts": {
     "test": "tsx no-for-in.test.ts"
   },
