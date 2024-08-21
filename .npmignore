@@ -8,3 +8,4 @@ tsconfig.json
 shell.nix
 .envrc
 .direnv
+*.tar.gz
