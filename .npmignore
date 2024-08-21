@@ -9,3 +9,5 @@ shell.nix
 .envrc
 .direnv
 *.tar.gz
+.envrc.secure
+*.tgz
