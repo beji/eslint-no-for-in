@@ -12,3 +12,4 @@ shell.nix
 *.tar.gz
 .envrc.secure
 *.tgz
+biome.json

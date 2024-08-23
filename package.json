@@ -1,24 +1,24 @@
 {
-  "name": "@starkertyp/eslint-no-for-in",
-  "version": "1.0.0",
-  "description": "Custom eslint rule that blocks for in loops",
-  "main": "index.js",
-  "scripts": {
-    "test": "tsx no-for-in.test.ts"
-  },
-  "author": "Björn Erlwein",
-  "license": "EUPL-1.2",
-  "devDependencies": {
-    "@types/eslint": "^9.6.0",
-    "@types/node": "^22.4.2",
-    "@typescript-eslint/parser": "^8.2.0",
-    "@typescript-eslint/rule-tester": "^8.2.0",
-    "eslint": "^9.9.0",
-    "tsx": "^4.17.0",
-    "typescript": "^5.5.4",
-    "typescript-language-server": "^4.3.3"
-  },
-  "dependencies": {
-    "@typescript-eslint/utils": "^8.2.0"
-  }
+	"name": "@starkertyp/eslint-no-for-in",
+	"version": "1.1.0",
+	"description": "Custom eslint rule that blocks for in loops",
+	"main": "index.js",
+	"scripts": {
+		"test": "tsx no-for-in.test.ts"
+	},
+	"author": "Björn Erlwein",
+	"license": "EUPL-1.2",
+	"devDependencies": {
+		"@types/eslint": "^9.6.0",
+		"@types/node": "^22.4.2",
+		"@typescript-eslint/parser": "^8.2.0",
+		"@typescript-eslint/rule-tester": "^8.2.0",
+		"eslint": "^9.9.0",
+		"tsx": "^4.17.0",
+		"typescript": "^5.5.4",
+		"typescript-language-server": "^4.3.3"
+	},
+	"dependencies": {
+		"@typescript-eslint/utils": "^8.2.0"
+	}
 }

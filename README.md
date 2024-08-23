@@ -19,3 +19,9 @@ module.exports = [
 ]
 
 ```
+
+# Changelog
+
+## 1.1.0
+
+- Add a fix
