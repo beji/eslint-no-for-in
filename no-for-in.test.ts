@@ -22,10 +22,12 @@ ruleTester.run("no-for-in", rule, {
 		{
 			code: "for (const x in y) {}",
 			errors: [{ messageId: "no-for-in" }],
+			output: "for (const x of y) {}",
 		},
 		{
 			code: "for (let x in []) {}",
 			errors: [{ messageId: "no-for-in" }],
+			output: "for (let x of []) {}",
 		},
 	],
 });
